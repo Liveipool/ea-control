@@ -1,1 +1,27 @@
-span  hshsahha
+mixin box
+  .mt-20
+    +box-info
+    +test-state
+
+mixin box-info
+  div.mb-5(layout="row")
+    span.label 盒号
+    span.content.pl-50 测试盒4 
+    span.label.pl-100 测试计划 
+    span.content.pl-50 b36/分步测试 
+    span.label.pl-100 测试员
+    span.content.pl-50 dsds
+
+mixin test-state
+  .md-title.pv-20.pl-20 测试步骤进度
+
+  .steps(layout='row' layout-wrap)
+    .step.ph-10.pv-20.m-10(ng-repeat='step in vm.execution.testInfo.steps' flex='20' layout='row' layout-align='space-between')
+      .seq-no(flex='20') {{step.id}}
+      .name.subhead(flex) {{step.name}}
+
+
+
+.md-headline.pv-20.pl-20 测试执行详情
+  #test-box-detail(layout='column' flex='100')
+    +box

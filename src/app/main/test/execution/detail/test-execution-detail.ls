@@ -4,8 +4,12 @@ angular.module 'app.test'
   
     $state-provider.state 'app.test.execution-detail', {
       url: '/test/execution-detail'
+      resolve: data: (api-resolver)-> api-resolver.resolve('testInfo@get')
       views:
         'content@app':
           template-url: 'app/main/test/execution/detail/test-execution-detail.html'
-          controller: ($scope)!->
+          controller-as: 'vm'
+          controller: (data, $scope)!->
+            @execution = data
+            # console.log "aaaaaa: ", data.testInfo.steps
     }

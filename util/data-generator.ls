@@ -17,3 +17,5 @@ fs.write-file-sync __dirname + '/../src/app/data/test/boxes.json', JSON.stringif
 
 executions = [new Test-execution for i in [1 to 200]]
 fs.write-file-sync __dirname + '/../src/app/data/test/executions.json', JSON.stringify {executions}
+
+# testinfo = [new Test-info for ]

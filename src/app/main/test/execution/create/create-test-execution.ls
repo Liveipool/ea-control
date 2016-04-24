@@ -11,7 +11,9 @@ angular.module 'app.test'
           controller-as: 'vm'
           controller: (data, $scope, $state)!->
             @execution = data
-            @execution-text = '等待执行'
+            @execution-text = '等待执行.......'
+            @test-plan = "b36/分步测试"
+            @test-box = "测试盒4"
             @execute-test = do ~> 
               counter = 1
               ~> 

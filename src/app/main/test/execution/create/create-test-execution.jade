@@ -5,13 +5,13 @@
     div(layout='column')
       md-input-container
         label 测试计划
-        input(ng-model='vm.execution.plan.testName' required)
+        input(ng-model='vm.testPlan' required)
       md-input-container
         label 测试员
-        input(ng-model='vm.execution.tester.name' required)
+        input(ng-model='vm.tester' required)
       md-input-container
         label 测试盒
-        input(ng-model='vm.execution.box.name' required)
+        input(ng-model='vm.testBox' required)
       md-input-container
         label 备注
         input(ng-model='vm.execution.comment')
