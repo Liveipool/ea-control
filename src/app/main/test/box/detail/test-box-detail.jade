@@ -9,7 +9,7 @@ mixin box-info
     span.label 盒号
     span.content {{vm.box.name}}
     span.label 累计测试
-    span.content {{}}
+    span.content {{vm.boxes.execution.executions.length}}
     span.label 上一次测试
     span.content {{vm.box.lastExecution.testPlan}}
     span.label 结果
@@ -27,7 +27,7 @@ mixin current-info
     span.content {{vm.box.currentExecution.estimateEndTime}}
 
 mixin test-history
-  table
+  table.dataTable.hover.row-border
     thead
       th 测试计划
       th 测试员
@@ -36,13 +36,13 @@ mixin test-history
       th 结束时间
       th 总步骤
     
-    tbody
-      td {{}}
-      td {{}}
-      td {{}}
-      td {{}}
-      td {{}}
-      td {{}}
+    tbody(ng-repeat='execution in vm.boxes.execution.executions')
+      td {{ execution.testPlan.name }}
+      td {{ execution.tester.name }}
+      td {{ execution.result }}
+      td {{ execution.startTime}}
+      td {{ execution.endTime }}
+      td {{ execution.steps }}
 
 .md-headline.pv-20.pl-20 测试盒详情
   #test-box-detail(layout='column' flex='100')

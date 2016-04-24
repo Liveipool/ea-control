@@ -1,0 +1,3648 @@
+{
+	"executions": [{
+		"_id": 1,
+		"startTime": 1460807063976.8188,
+		"endTime": 1460811581588.854,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 24
+	}, {
+		"_id": 2,
+		"startTime": 1459647319190.7058,
+		"endTime": 1459647511974.5444,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 16
+	}, {
+		"_id": 3,
+		"startTime": 1456882932910.1401,
+		"endTime": 1456884302934.3823,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 30
+	}, {
+		"_id": 4,
+		"startTime": 1455721480267.5828,
+		"endTime": 1455727469074.686,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 5,
+			"name": "测试盒 5"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 5
+	}, {
+		"_id": 5,
+		"startTime": 1452995127651.447,
+		"endTime": 1453000413020.0427,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 24
+	}, {
+		"_id": 6,
+		"startTime": 1457747041998.3496,
+		"endTime": 1457747283916.612,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 2,
+			"name": "测试盒 2"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 22
+	}, {
+		"_id": 7,
+		"startTime": 1459751328682.743,
+		"endTime": 1459753611118.8628,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 26
+	}, {
+		"_id": 8,
+		"startTime": 1458383597428.0605,
+		"endTime": 1458388473490.909,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 18
+	}, {
+		"_id": 9,
+		"startTime": 1455381467518.7144,
+		"endTime": 1455383682863.574,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 14
+	}, {
+		"_id": 10,
+		"startTime": 1460369416308.836,
+		"endTime": 1460369960611.833,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 4
+	}, {
+		"_id": 11,
+		"startTime": 1454073604861.0369,
+		"endTime": 1454075964373.292,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 10
+	}, {
+		"_id": 12,
+		"startTime": 1460639525676.8303,
+		"endTime": 1460639970328.2322,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 29
+	}, {
+		"_id": 13,
+		"startTime": 1455105389532.4636,
+		"endTime": 1455105624781.8254,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 31
+	}, {
+		"_id": 14,
+		"startTime": 1458073472100.3003,
+		"endTime": 1458077588748.45,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 6
+	}, {
+		"_id": 15,
+		"startTime": 1460231322585.075,
+		"endTime": 1460231357588.7349,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 23
+	}, {
+		"_id": 16,
+		"startTime": 1458103858803.587,
+		"endTime": 1458105122732.1995,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 15
+	}, {
+		"_id": 17,
+		"startTime": 1456072489483.9368,
+		"endTime": 1456074318443.2856,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 31
+	}, {
+		"_id": 18,
+		"startTime": 1455332517381.4646,
+		"endTime": 1455333708524.2673,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 26
+	}, {
+		"_id": 19,
+		"startTime": 1454731678348.1301,
+		"endTime": 1454735230781.4556,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 3,
+			"name": "测试盒 3"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 31
+	}, {
+		"_id": 20,
+		"startTime": 1456882752948.525,
+		"endTime": 1456883104374.7131,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 5,
+			"name": "测试盒 5"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 11
+	}, {
+		"_id": 21,
+		"startTime": 1457643623675.6467,
+		"endTime": 1457645993203.01,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 5
+	}, {
+		"_id": 22,
+		"startTime": 1454478979790.245,
+		"endTime": 1454484502391.8862,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 4,
+			"name": "测试盒 4"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 25
+	}, {
+		"_id": 23,
+		"startTime": 1453586164337.8655,
+		"endTime": 1453587573892.6804,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 14
+	}, {
+		"_id": 24,
+		"startTime": 1454462372953.1052,
+		"endTime": 1454468694522.2622,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 10,
+			"name": "测试盒 10"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 20
+	}, {
+		"_id": 25,
+		"startTime": 1455483984052.3174,
+		"endTime": 1455484358366.5823,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 20
+	}, {
+		"_id": 26,
+		"startTime": 1458821205452.3438,
+		"endTime": 1458829281800.5405,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 4,
+			"name": "测试盒 4"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 3
+	}, {
+		"_id": 27,
+		"startTime": 1458135280170.9578,
+		"endTime": 1458135416296.6223,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 12
+	}, {
+		"_id": 28,
+		"startTime": 1455130233403.0952,
+		"endTime": 1455139044360.1626,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 5,
+			"name": "测试盒 5"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 25
+	}, {
+		"_id": 29,
+		"startTime": 1455808453867.3286,
+		"endTime": 1455811061151.1746,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 10,
+			"name": "测试盒 10"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 29
+	}, {
+		"_id": 30,
+		"startTime": 1453116193436.7878,
+		"endTime": 1453117513749.8884,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 23
+	}, {
+		"_id": 31,
+		"startTime": 1457769568820.4492,
+		"endTime": 1457773613419.01,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 9
+	}, {
+		"_id": 32,
+		"startTime": 1459249423874.9963,
+		"endTime": 1459255207101.6226,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 5,
+			"name": "测试盒 5"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 18
+	}, {
+		"_id": 33,
+		"startTime": 1454004916362.1555,
+		"endTime": 1454004990975.5952,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 19
+	}, {
+		"_id": 34,
+		"startTime": 1460009324777.2092,
+		"endTime": 1460013905927.526,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 4,
+			"name": "测试盒 4"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 24
+	}, {
+		"_id": 35,
+		"startTime": 1454640366085.242,
+		"endTime": 1454642658648.8057,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 13
+	}, {
+		"_id": 36,
+		"startTime": 1457825318726.8816,
+		"endTime": 1457831533484.0164,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 25
+	}, {
+		"_id": 37,
+		"startTime": 1461479213918.368,
+		"endTime": 1461481102475.843,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 16
+	}, {
+		"_id": 38,
+		"startTime": 1456809506265.4707,
+		"endTime": 1456813696091.477,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 8
+	}, {
+		"_id": 39,
+		"startTime": 1460173959807.2234,
+		"endTime": 1460174133593.1067,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 7,
+			"name": "测试盒 7"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 14
+	}, {
+		"_id": 40,
+		"startTime": 1456940034702.0283,
+		"endTime": 1456945581467.3765,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 8
+	}, {
+		"_id": 41,
+		"startTime": 1455975445160.1729,
+		"endTime": 1455981186937.8157,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 3,
+			"name": "测试盒 3"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 6
+	}, {
+		"_id": 42,
+		"startTime": 1454268540487.4414,
+		"endTime": 1454268648087.2324,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 2,
+			"name": "测试盒 2"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 21
+	}, {
+		"_id": 43,
+		"startTime": 1457459618691.9573,
+		"endTime": 1457462502807.6455,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 23
+	}, {
+		"_id": 44,
+		"startTime": 1454361898590.2095,
+		"endTime": 1454367054346.604,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 29
+	}, {
+		"_id": 45,
+		"startTime": 1460565522872.2715,
+		"endTime": 1460565539466.6045,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 6,
+			"name": "测试盒 6"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 28
+	}, {
+		"_id": 46,
+		"startTime": 1453593808565.411,
+		"endTime": 1453596296707.4177,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 22
+	}, {
+		"_id": 47,
+		"startTime": 1455189991652.9067,
+		"endTime": 1455191136798.1755,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 16
+	}, {
+		"_id": 48,
+		"startTime": 1459459203910.118,
+		"endTime": 1459460143572.4048,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 5,
+			"name": "测试盒 5"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 20
+	}, {
+		"_id": 49,
+		"startTime": 1458286964264.215,
+		"endTime": 1458291431664.2534,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 4,
+			"name": "测试盒 4"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 23
+	}, {
+		"_id": 50,
+		"startTime": 1461091522032.7422,
+		"endTime": 1461097175706.0134,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 8
+	}, {
+		"_id": 51,
+		"startTime": 1457926047185.6042,
+		"endTime": 1457927354224.103,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 7
+	}, {
+		"_id": 52,
+		"startTime": 1457864038608.7847,
+		"endTime": 1457864390076.302,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 4
+	}, {
+		"_id": 53,
+		"startTime": 1453895233067.0754,
+		"endTime": 1453902415138.0637,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 7
+	}, {
+		"_id": 54,
+		"startTime": 1453593036298.0671,
+		"endTime": 1453599516132.8337,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 14
+	}, {
+		"_id": 55,
+		"startTime": 1455141316157.9812,
+		"endTime": 1455144879735.6523,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 13
+	}, {
+		"_id": 56,
+		"startTime": 1456421042872.0938,
+		"endTime": 1456431150916.8374,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 25
+	}, {
+		"_id": 57,
+		"startTime": 1457221431542.3164,
+		"endTime": 1457222125831.6313,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 9,
+			"name": "测试盒 9"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 18
+	}, {
+		"_id": 58,
+		"startTime": 1458183226509.517,
+		"endTime": 1458185008857.4912,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 20
+	}, {
+		"_id": 59,
+		"startTime": 1454441782439.5618,
+		"endTime": 1454447895967.2837,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 17
+	}, {
+		"_id": 60,
+		"startTime": 1458987999495.5925,
+		"endTime": 1458989465318.978,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 6
+	}, {
+		"_id": 61,
+		"startTime": 1454226260266.8806,
+		"endTime": 1454226926083.255,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 6
+	}, {
+		"_id": 62,
+		"startTime": 1454332559215.565,
+		"endTime": 1454332587036.6252,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 31
+	}, {
+		"_id": 63,
+		"startTime": 1458888480692.5784,
+		"endTime": 1458888485409.8577,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 11
+	}, {
+		"_id": 64,
+		"startTime": 1454020289040.3733,
+		"endTime": 1454028975227.594,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 8
+	}, {
+		"_id": 65,
+		"startTime": 1459960819742.359,
+		"endTime": 1459970945533.6167,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 15
+	}, {
+		"_id": 66,
+		"startTime": 1457706682292.5608,
+		"endTime": 1457712280156.5925,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 9
+	}, {
+		"_id": 67,
+		"startTime": 1456156323803.521,
+		"endTime": 1456156988035.4834,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 10
+	}, {
+		"_id": 68,
+		"startTime": 1453699319162.9792,
+		"endTime": 1453699468702.0076,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 30
+	}, {
+		"_id": 69,
+		"startTime": 1457025033740.607,
+		"endTime": 1457026858834.6143,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 14
+	}, {
+		"_id": 70,
+		"startTime": 1454927749806.044,
+		"endTime": 1454929340779.6125,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 9
+	}, {
+		"_id": 71,
+		"startTime": 1454748476640.4553,
+		"endTime": 1454753001143.4302,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 12
+	}, {
+		"_id": 72,
+		"startTime": 1459179562979.4426,
+		"endTime": 1459183918722.0588,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 18
+	}, {
+		"_id": 73,
+		"startTime": 1458693816191.8372,
+		"endTime": 1458694080760.85,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 7
+	}, {
+		"_id": 74,
+		"startTime": 1454945262717.2195,
+		"endTime": 1454947999368.9912,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 11
+	}, {
+		"_id": 75,
+		"startTime": 1454624131697.1985,
+		"endTime": 1454626216381.3894,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 3
+	}, {
+		"_id": 76,
+		"startTime": 1456308289517.517,
+		"endTime": 1456311258666.2615,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 27
+	}, {
+		"_id": 77,
+		"startTime": 1458873233814.1658,
+		"endTime": 1458875302669.3955,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 3
+	}, {
+		"_id": 78,
+		"startTime": 1457843622245.3928,
+		"endTime": 1457843625633.3145,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 24
+	}, {
+		"_id": 79,
+		"startTime": 1460990816076.7864,
+		"endTime": 1460996032798.34,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 8
+	}, {
+		"_id": 80,
+		"startTime": 1458858659131.5793,
+		"endTime": 1458859939058.6382,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 28
+	}, {
+		"_id": 81,
+		"startTime": 1454987864943.214,
+		"endTime": 1454988074997.521,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 4
+	}, {
+		"_id": 82,
+		"startTime": 1457390076202.4565,
+		"endTime": 1457390770677.7815,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 28
+	}, {
+		"_id": 83,
+		"startTime": 1460554869857.64,
+		"endTime": 1460556092101.1013,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 4
+	}, {
+		"_id": 84,
+		"startTime": 1460182505203.1038,
+		"endTime": 1460187449465.9814,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 4
+	}, {
+		"_id": 85,
+		"startTime": 1456791609105.467,
+		"endTime": 1456793357512.5017,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 28
+	}, {
+		"_id": 86,
+		"startTime": 1458779324838.97,
+		"endTime": 1458785066216.8662,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 8,
+			"name": "测试盒 8"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 14
+	}, {
+		"_id": 87,
+		"startTime": 1456271417495.9478,
+		"endTime": 1456272197448.2556,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 14
+	}, {
+		"_id": 88,
+		"startTime": 1455406622155.3809,
+		"endTime": 1455406719657.17,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 28
+	}, {
+		"_id": 89,
+		"startTime": 1457545241910.7205,
+		"endTime": 1457547905614.795,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 8
+	}, {
+		"_id": 90,
+		"startTime": 1458897663770.7559,
+		"endTime": 1458897963538.1995,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 7,
+			"name": "测试盒 7"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 24
+	}, {
+		"_id": 91,
+		"startTime": 1459735516366.7888,
+		"endTime": 1459737510637.9863,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 3,
+			"name": "测试盒 3"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 24
+	}, {
+		"_id": 92,
+		"startTime": 1454327369342.468,
+		"endTime": 1454332475439.913,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 14
+	}, {
+		"_id": 93,
+		"startTime": 1459155904055.3374,
+		"endTime": 1459156733491.7185,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 20
+	}, {
+		"_id": 94,
+		"startTime": 1455593938680.914,
+		"endTime": 1455595624999.3958,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 27
+	}, {
+		"_id": 95,
+		"startTime": 1459252686143.5115,
+		"endTime": 1459258763109.3918,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 15
+	}, {
+		"_id": 96,
+		"startTime": 1456725966479.2307,
+		"endTime": 1456729494177.7998,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 7
+	}, {
+		"_id": 97,
+		"startTime": 1455169847633.8115,
+		"endTime": 1455172074929.8706,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 22
+	}, {
+		"_id": 98,
+		"startTime": 1460894324962.368,
+		"endTime": 1460894469519.0996,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 31
+	}, {
+		"_id": 99,
+		"startTime": 1457362235634.5027,
+		"endTime": 1457365547502.1748,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 8,
+			"name": "测试盒 8"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 25
+	}, {
+		"_id": 100,
+		"startTime": 1457981125787.2173,
+		"endTime": 1457982584103.767,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 23
+	}, {
+		"_id": 101,
+		"startTime": 1454550795693.9631,
+		"endTime": 1454551759217.4773,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 15
+	}, {
+		"_id": 102,
+		"startTime": 1456411840307.6643,
+		"endTime": 1456418772302.9583,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 14
+	}, {
+		"_id": 103,
+		"startTime": 1456659384704.361,
+		"endTime": 1456664743518.5205,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 26
+	}, {
+		"_id": 104,
+		"startTime": 1453405977425.6426,
+		"endTime": 1453409105962.6912,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 9
+	}, {
+		"_id": 105,
+		"startTime": 1454774890996.8662,
+		"endTime": 1454775512290.5361,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 5,
+			"name": "测试盒 5"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 23
+	}, {
+		"_id": 106,
+		"startTime": 1461189621126.5437,
+		"endTime": 1461190858217.0684,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 10
+	}, {
+		"_id": 107,
+		"startTime": 1454725357275.9924,
+		"endTime": 1454725409612.2185,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 28
+	}, {
+		"_id": 108,
+		"startTime": 1453616495522.9736,
+		"endTime": 1453620613593.1392,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 7
+	}, {
+		"_id": 109,
+		"startTime": 1454531992512.358,
+		"endTime": 1454532748952.025,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 31
+	}, {
+		"_id": 110,
+		"startTime": 1453702192785.384,
+		"endTime": 1453702239479.1824,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 10,
+			"name": "测试盒 10"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 3
+	}, {
+		"_id": 111,
+		"startTime": 1459906057619.1191,
+		"endTime": 1459906058416.768,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 31
+	}, {
+		"_id": 112,
+		"startTime": 1455925489616.2212,
+		"endTime": 1455930697210.8528,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 10,
+			"name": "测试盒 10"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 27
+	}, {
+		"_id": 113,
+		"startTime": 1457921452229.1914,
+		"endTime": 1457924172857.805,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 6
+	}, {
+		"_id": 114,
+		"startTime": 1457680422085.9512,
+		"endTime": 1457689421885.309,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 22
+	}, {
+		"_id": 115,
+		"startTime": 1460156351129.1333,
+		"endTime": 1460158466772.1929,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 11
+	}, {
+		"_id": 116,
+		"startTime": 1453882038152.256,
+		"endTime": 1453886163424.5623,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 6
+	}, {
+		"_id": 117,
+		"startTime": 1460304260880.014,
+		"endTime": 1460305545924.2007,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 10
+	}, {
+		"_id": 118,
+		"startTime": 1457543612369.3733,
+		"endTime": 1457547080902.6858,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 2,
+			"name": "测试盒 2"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 23
+	}, {
+		"_id": 119,
+		"startTime": 1454025130867.599,
+		"endTime": 1454028747196.4285,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 6
+	}, {
+		"_id": 120,
+		"startTime": 1458995165227.901,
+		"endTime": 1458995383901.3564,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 9
+	}, {
+		"_id": 121,
+		"startTime": 1452976469270.2747,
+		"endTime": 1452979454247.301,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 13
+	}, {
+		"_id": 122,
+		"startTime": 1460674893204.7346,
+		"endTime": 1460676620831.7957,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 27
+	}, {
+		"_id": 123,
+		"startTime": 1453706166119.5532,
+		"endTime": 1453706226748.283,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 8
+	}, {
+		"_id": 124,
+		"startTime": 1460125238644.136,
+		"endTime": 1460126843078.5188,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 26
+	}, {
+		"_id": 125,
+		"startTime": 1455725833687.6711,
+		"endTime": 1455727780381.9492,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 18
+	}, {
+		"_id": 126,
+		"startTime": 1460496055664.261,
+		"endTime": 1460497451336.9714,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 21
+	}, {
+		"_id": 127,
+		"startTime": 1458506993418.7664,
+		"endTime": 1458507360507.4758,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 5,
+			"name": "测试盒 5"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 11
+	}, {
+		"_id": 128,
+		"startTime": 1457455819036.8445,
+		"endTime": 1457456029540.27,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 26
+	}, {
+		"_id": 129,
+		"startTime": 1455552697402.1384,
+		"endTime": 1455554851915.5784,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 4,
+			"name": "测试盒 4"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 8
+	}, {
+		"_id": 130,
+		"startTime": 1454516501054.8645,
+		"endTime": 1454516511328.1514,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 28
+	}, {
+		"_id": 131,
+		"startTime": 1456602201433.2036,
+		"endTime": 1456602223237.3228,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 27
+	}, {
+		"_id": 132,
+		"startTime": 1461268972159.882,
+		"endTime": 1461273946254.2524,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 7,
+			"name": "测试盒 7"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 25
+	}, {
+		"_id": 133,
+		"startTime": 1457186784331.8694,
+		"endTime": 1457187452447.2334,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 20
+	}, {
+		"_id": 134,
+		"startTime": 1461284958441.5168,
+		"endTime": 1461285542521.0579,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 10
+	}, {
+		"_id": 135,
+		"startTime": 1455551912998.085,
+		"endTime": 1455552352925.6765,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 27
+	}, {
+		"_id": 136,
+		"startTime": 1461293726490.3147,
+		"endTime": 1461296977174.341,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 2,
+			"name": "测试盒 2"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 11
+	}, {
+		"_id": 137,
+		"startTime": 1454303467457.5293,
+		"endTime": 1454305760002.5793,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 3,
+			"name": "测试盒 3"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 7
+	}, {
+		"_id": 138,
+		"startTime": 1459030501676.804,
+		"endTime": 1459031123158.408,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 16
+	}, {
+		"_id": 139,
+		"startTime": 1456272510499.429,
+		"endTime": 1456273117335.7698,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 29
+	}, {
+		"_id": 140,
+		"startTime": 1458462316083.615,
+		"endTime": 1458465009413.3093,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 21
+	}, {
+		"_id": 141,
+		"startTime": 1455356944977.515,
+		"endTime": 1455357806375.4006,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 23
+	}, {
+		"_id": 142,
+		"startTime": 1459298338676.2678,
+		"endTime": 1459301907410.312,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 9,
+			"name": "测试盒 9"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 19
+	}, {
+		"_id": 143,
+		"startTime": 1457752575932.2239,
+		"endTime": 1457756368009.3567,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 13
+	}, {
+		"_id": 144,
+		"startTime": 1458516514144.2388,
+		"endTime": 1458517015701.368,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 10,
+			"name": "测试盒 10"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 3
+	}, {
+		"_id": 145,
+		"startTime": 1456430519883.1338,
+		"endTime": 1456430677808.81,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 15
+	}, {
+		"_id": 146,
+		"startTime": 1454181729856.997,
+		"endTime": 1454186736292.2458,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 3,
+			"name": "测试盒 3"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 26
+	}, {
+		"_id": 147,
+		"startTime": 1456211423642.3447,
+		"endTime": 1456213790235.1475,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 6,
+			"name": "测试盒 6"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 26
+	}, {
+		"_id": 148,
+		"startTime": 1453601058790.7402,
+		"endTime": 1453601141740.8262,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 13
+	}, {
+		"_id": 149,
+		"startTime": 1459438352053.195,
+		"endTime": 1459443290178.9612,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 16
+	}, {
+		"_id": 150,
+		"startTime": 1460397237117.5103,
+		"endTime": 1460398986333.5957,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 14
+	}, {
+		"_id": 151,
+		"startTime": 1455748343655.9226,
+		"endTime": 1455751411317.1738,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 9
+	}, {
+		"_id": 152,
+		"startTime": 1454987824597.2126,
+		"endTime": 1454988172144.7878,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 23
+	}, {
+		"_id": 153,
+		"startTime": 1455421174219.661,
+		"endTime": 1455422738607.9915,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 24
+	}, {
+		"_id": 154,
+		"startTime": 1459566659129.868,
+		"endTime": 1459566687283.7957,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 23
+	}, {
+		"_id": 155,
+		"startTime": 1453292624079.9976,
+		"endTime": 1453297359701.1743,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 6
+	}, {
+		"_id": 156,
+		"startTime": 1459568518565.2517,
+		"endTime": 1459571690133.156,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 5,
+			"name": "测试盒 5"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 21
+	}, {
+		"_id": 157,
+		"startTime": 1453229481896.5935,
+		"endTime": 1453233071942.7927,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 11
+	}, {
+		"_id": 158,
+		"startTime": 1455114994208.545,
+		"endTime": 1455115505735.4263,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 8
+	}, {
+		"_id": 159,
+		"startTime": 1457701592251.0637,
+		"endTime": 1457704284487.447,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 2,
+			"name": "测试盒 2"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 17
+	}, {
+		"_id": 160,
+		"startTime": 1457061962319.8108,
+		"endTime": 1457061975350.8481,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 11
+	}, {
+		"_id": 161,
+		"startTime": 1457283473148.5166,
+		"endTime": 1457284016604.3357,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 24
+	}, {
+		"_id": 162,
+		"startTime": 1457651804565.8481,
+		"endTime": 1457653413058.3828,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 20
+	}, {
+		"_id": 163,
+		"startTime": 1458298814191.5916,
+		"endTime": 1458300514267.8557,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 31
+	}, {
+		"_id": 164,
+		"startTime": 1460328252689.963,
+		"endTime": 1460329092390.935,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 31
+	}, {
+		"_id": 165,
+		"startTime": 1456087065968.1458,
+		"endTime": 1456093281171.762,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 8,
+			"name": "测试盒 8"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 3
+	}, {
+		"_id": 166,
+		"startTime": 1456128572470.4282,
+		"endTime": 1456130255258.208,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 24
+	}, {
+		"_id": 167,
+		"startTime": 1455883301168.3523,
+		"endTime": 1455885606642.5251,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 11
+	}, {
+		"_id": 168,
+		"startTime": 1454378451991.9006,
+		"endTime": 1454378464022.7788,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 21
+	}, {
+		"_id": 169,
+		"startTime": 1456343699258.109,
+		"endTime": 1456345793392.8904,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 21
+	}, {
+		"_id": 170,
+		"startTime": 1454727600630.3855,
+		"endTime": 1454736795431.758,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 25
+	}, {
+		"_id": 171,
+		"startTime": 1458647072681.234,
+		"endTime": 1458648429157.0266,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 30
+	}, {
+		"_id": 172,
+		"startTime": 1455554524902.0435,
+		"endTime": 1455556396401.0137,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 29
+	}, {
+		"_id": 173,
+		"startTime": 1457741883458.5847,
+		"endTime": 1457745765760.2405,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 4
+	}, {
+		"_id": 174,
+		"startTime": 1458641044054.129,
+		"endTime": 1458643285372.9004,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 17
+	}, {
+		"_id": 175,
+		"startTime": 1456883427961.7717,
+		"endTime": 1456883966569.7917,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 25
+	}, {
+		"_id": 176,
+		"startTime": 1456171005752.5303,
+		"endTime": 1456171473935.5615,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 23
+	}, {
+		"_id": 177,
+		"startTime": 1453216987683.4917,
+		"endTime": 1453219542923.5342,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 17
+	}, {
+		"_id": 178,
+		"startTime": 1458989332929.7034,
+		"endTime": 1458989883720.1958,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 23
+	}, {
+		"_id": 179,
+		"startTime": 1455986406985.5615,
+		"endTime": 1455988289333.8003,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 8,
+			"name": "测试盒 8"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 31
+	}, {
+		"_id": 180,
+		"startTime": 1453755352421.8193,
+		"endTime": 1453757200561.4949,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 9
+	}, {
+		"_id": 181,
+		"startTime": 1454760455120.5254,
+		"endTime": 1454763746416.89,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 2,
+			"name": "测试盒 2"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 32
+	}, {
+		"_id": 182,
+		"startTime": 1459239001197.3613,
+		"endTime": 1459239341139.9275,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 8,
+			"name": "测试盒 8"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 30
+	}, {
+		"_id": 183,
+		"startTime": 1461292511797.0488,
+		"endTime": 1461294618647.2878,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 8
+	}, {
+		"_id": 184,
+		"startTime": 1456858780574.341,
+		"endTime": 1456859003001.2922,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 6
+	}, {
+		"_id": 185,
+		"startTime": 1460205766177.409,
+		"endTime": 1460207034971.8743,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 9
+	}, {
+		"_id": 186,
+		"startTime": 1455744998537.0825,
+		"endTime": 1455746848749.751,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 2,
+			"name": "测试盒 2"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 8
+	}, {
+		"_id": 187,
+		"startTime": 1453938470060.8772,
+		"endTime": 1453946649663.954,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 25
+	}, {
+		"_id": 188,
+		"startTime": 1456720831742.5913,
+		"endTime": 1456723086107.8977,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 32
+	}, {
+		"_id": 189,
+		"startTime": 1457730910077.4666,
+		"endTime": 1457732512501.5918,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 18
+	}, {
+		"_id": 190,
+		"startTime": 1453973164350.3853,
+		"endTime": 1453973169892.185,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 2,
+			"name": "测试盒 2"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 15
+	}, {
+		"_id": 191,
+		"startTime": 1457109651765.311,
+		"endTime": 1457110957285.6912,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 10,
+			"name": "测试盒 10"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 23
+	}, {
+		"_id": 192,
+		"startTime": 1453920274115.222,
+		"endTime": 1453928776596.6685,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 5
+	}, {
+		"_id": 193,
+		"startTime": 1454340477077.2676,
+		"endTime": 1454343358110.6223,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 2,
+			"name": "测试盒 2"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 27
+	}, {
+		"_id": 194,
+		"startTime": 1458988130667.0908,
+		"endTime": 1458988192533.9954,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 15
+	}, {
+		"_id": 195,
+		"startTime": 1461460418059.302,
+		"endTime": 1461464488451.1353,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 27
+	}, {
+		"_id": 196,
+		"startTime": 1457862752578.6833,
+		"endTime": 1457867032561.106,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 2,
+			"name": "测试盒 2"
+		},
+		"testPlan": {
+			"_id": 2,
+			"name": "t121双速洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 31
+	}, {
+		"_id": 197,
+		"startTime": 1454162638692.3113,
+		"endTime": 1454163683297.5117,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 18
+	}, {
+		"_id": 198,
+		"startTime": 1457618417012.0923,
+		"endTime": 1457619994328.2847,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 17
+	}, {
+		"_id": 199,
+		"startTime": 1452924019522.578,
+		"endTime": 1452925913896.1184,
+		"result": "FAIL",
+		"reason": "双速电机调速失败",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 1,
+			"name": "张珊"
+		},
+		"steps": 24
+	}, {
+		"_id": 200,
+		"startTime": 1454763429463.5579,
+		"endTime": 1454766117628.495,
+		"result": "PASS",
+		"eaBox": {
+			"_id": 1,
+			"name": "测试盒 1"
+		},
+		"testPlan": {
+			"_id": 1,
+			"name": "b36自动洗测试"
+		},
+		"tester": {
+			"_id": 2,
+			"name": "李斯"
+		},
+		"steps": 9
+	}]
+}

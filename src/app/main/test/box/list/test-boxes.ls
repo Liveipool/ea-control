@@ -38,7 +38,7 @@ angular.module 'app.test', []
           controller-as: 'vm'
           controller: (data, $scope)!->
             # console.log "boxes: ", data.boxes[1]
-            @boxes = create-boxes data.boxes
+            @boxes = create-boxes data.boxes # 这个函数其实这是给boxes数组里的每个对象添加了一个状态属性，其他属性都没有删减
             # console.log "@boxes: ", @boxes[1]
     }
 

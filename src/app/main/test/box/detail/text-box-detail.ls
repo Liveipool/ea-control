@@ -29,19 +29,21 @@ angular.module 'app.test'
 .config ($state-provider, $translate-partial-loader-provider, ms-navigation-service-provider)!->
   
     $state-provider.state 'app.test.box-detail', {
-      url: '/test/boxex/:id'
-      resolve: data: (api-resolver)-> api-resolver.resolve('testBoxes@get')
+      url: '/test/boxes/:id'
+      resolve:
+        boxData: (api-resolver)-> api-resolver.resolve('testBoxes@get')
+        executionData: (api-resolver)-> api-resolver.resolve('testExecutions@get')
       views:
         'content@app':
           template-url: 'app/main/test/box/detail/test-box-detail.html'
           # controller: (boxes, $scope)!->
           controller-as: 'vm'
-          controller: (data, $scope, $stateParams)!->
-            # console.log "hahaha: ", $stateParams.id
-            # console.log "box-detail-lala: ", data.boxes[$stateParams.id - 1]
-            @boxes = create-boxes data.boxes
+          controller: (boxData, executionData, $scope, $stateParams)!->
+            # console.log "box-detail-lala: ", boxData.boxes[$stateParams.id - 1]
+            @boxes = create-boxes boxData.boxes
+            @boxes.execution = executionData
             @box = @boxes[$stateParams.id - 1]
-            console.log "hahaha: ", @box
+            console.log "hahah: ", @boxes.execution.executions
     }
 
 

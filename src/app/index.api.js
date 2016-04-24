@@ -176,6 +176,7 @@
         api.baseUrl = 'app/data/';
 
         api.testBoxes = $resource(api.baseUrl + 'test/boxes.json');
+        api.testExecutions = $resource(api.baseUrl + 'test/executions.json');
 
         api.auth = {
          isRegistedUser: function(params){
