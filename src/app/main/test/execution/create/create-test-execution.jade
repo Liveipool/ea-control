@@ -1,0 +1,19 @@
+.md-headline.pv-20.pl-20 新建测试执行
+
+#create-execution.form-wrapper.md-whiteframe-1dp(flex='60')
+  form(ng-submit='vm.executeTest()' name='execution')
+    div(layout='column')
+      md-input-container
+        label 测试计划
+        input(ng-model='vm.execution.plan.testName' required)
+      md-input-container
+        label 测试员
+        input(ng-model='vm.execution.tester.name' required)
+      md-input-container
+        label 测试盒
+        input(ng-model='vm.execution.box.name' required)
+      md-input-container
+        label 备注
+        input(ng-model='vm.execution.comment')
+      
+      md-button.md-raised.md-accent(type='submit' ng-disabled='execution.$invalid || execution.$pristine') {{vm.executionText}}

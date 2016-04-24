@@ -36,7 +36,7 @@ mixin test-history
       th 结束时间
       th 总步骤
     
-    tbody(ng-repeat='execution in vm.boxes.execution.executions')
+    tbody(ng-repeat='execution in vm.boxes.execution.executions' ng-if="execution.eaBox._id == vm.box._id" )
       td {{ execution.testPlan.name }}
       td {{ execution.tester.name }}
       td {{ execution.result }}

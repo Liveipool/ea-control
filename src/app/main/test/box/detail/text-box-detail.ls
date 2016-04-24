@@ -43,7 +43,7 @@ angular.module 'app.test'
             @boxes = create-boxes boxData.boxes
             @boxes.execution = executionData
             @box = @boxes[$stateParams.id - 1]
-            console.log "hahah: ", @boxes.execution.executions
+            # console.log "hahah: ", @boxes.execution.executions
     }
 
 
