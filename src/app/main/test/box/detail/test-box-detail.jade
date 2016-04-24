@@ -1,0 +1,49 @@
+mixin box
+  .mt-20
+    +box-info
+    +current-info
+    +test-history
+
+mixin box-info
+  div.mb-5(layout="row", layout-align='space-between')
+    span.label 盒号
+    span.content {{vm.box.name}}
+    span.label 累计测试
+    span.content {{}}
+    span.label 上一次测试
+    span.content {{vm.box.lastExecution.testPlan}}
+    span.label 结果
+    span.content {{vm.box.lastExecution.result}}
+
+mixin current-info
+  div.mb-5(ng-if='vm.box.currentExecution' layout="row", layout-align='space-between')
+    span.label 当前状态
+    span.content 测试中
+    span.label 测试计划
+    span.content {{vm.box.currentExecution.testPlan}}
+    span.label 测试员
+    span.content {{vm.box.currentExecution.tester}}
+    span.label 预计结束
+    span.content {{vm.box.currentExecution.estimateEndTime}}
+
+mixin test-history
+  table
+    thead
+      th 测试计划
+      th 测试员
+      th 结果
+      th 开始时间
+      th 结束时间
+      th 总步骤
+    
+    tbody
+      td {{}}
+      td {{}}
+      td {{}}
+      td {{}}
+      td {{}}
+      td {{}}
+
+.md-headline.pv-20.pl-20 测试盒详情
+  #test-box-detail(layout='column' flex='100')
+    +box

@@ -25,10 +25,9 @@ create-box = (box)->
   box 
 
 angular.module 'app.test', []
-
-  .config ($state-provider, $translate-partial-loader-provider, ms-navigation-service-provider)!->
-    
-
+  
+.config ($state-provider, $translate-partial-loader-provider, ms-navigation-service-provider)!->
+  
     $state-provider.state 'app.test.boxes', {
       url: '/test/boxes'
       resolve: data: (api-resolver)-> api-resolver.resolve('testBoxes@get')
@@ -38,7 +37,8 @@ angular.module 'app.test', []
           # controller: (boxes, $scope)!->
           controller-as: 'vm'
           controller: (data, $scope)!->
-            console.log "boxes: ", data
+            # console.log "boxes: ", data.boxes[1]
             @boxes = create-boxes data.boxes
+            # console.log "@boxes: ", @boxes[1]
     }
 
