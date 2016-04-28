@@ -5,36 +5,57 @@ mixin box
     +test-history
 
 mixin box-info
-  div.mb-5(layout="row", layout-align='space-between')
-    span.label 盒号
-    span.content {{vm.box.name}}
-    span.label 累计测试
-    span.content {{vm.boxes.execution.executions.length}}
-    span.label 上一次测试
-    span.content {{vm.box.lastExecution.testPlan}}
-    span.label 结果
-    span.content {{vm.box.lastExecution.result}}
+  .mt-20.ph-20(layout='row', layout-align='space-between center')
+    .box-name
+      span.label 盒号 
+      span.content {{ vm.box.name }}
+    .executions
+      span.label 累计测试  
+      span.content {{ vm.length }}
+    .last-execution-name
+      span.label 上一次测试 
+      span.content {{ vm.box.lastExecution.testPlan }}
+    .last-execution-result
+      span.label 结果 
+      span.content {{ vm.box.lastExecution.result }}
 
 mixin current-info
-  div.mb-5(ng-if='vm.box.currentExecution' layout="row", layout-align='space-between')
-    span.label 当前状态
-    span.content 测试中
-    span.label 测试计划
-    span.content {{vm.box.currentExecution.testPlan}}
-    span.label 测试员
-    span.content {{vm.box.currentExecution.tester}}
-    span.label 预计结束
-    span.content {{vm.box.currentExecution.estimateEndTime}}
+  .mt-20.ph-20(ng-if='vm.box.currentExecution' layout='row', layout-align='space-between center')
+    .current-status
+      span.label 当前状态 
+      span.content 测试中
+    .current-test-plan
+      span.label 测试计划 
+      span.content {{ vm.box.currentExecution.testPlan }}
+    .tester
+      span.label 测试员 
+      span.content {{ vm.box.currentExecution.tester }}
+    .estimate-end-time
+      span.label 预计结束 
+      span.content {{ vm.box.currentExecution.estimateEndTime }}
 
 mixin test-history
-  table.dataTable.hover.row-border
+  table.dataTable.row-border.hover()
     thead
-      th 测试计划
-      th 测试员
-      th 结果
-      th 开始时间
-      th 结束时间
-      th 总步骤
+      tr
+        th.secondary-text
+          .table-header
+            span.column-title 测试计划
+        th.secondary-text
+          .table-header
+            span.column-title 测试员
+        th.secondary-text
+          .table-header
+            span.column-title 结果
+        th.secondary-text
+          .table-header
+            span.column-title 开始时间
+        th.secondary-text
+          .table-header
+            span.column-title 结束时间
+        th.secondary-text
+          .table-header
+            span.column-title 总步骤
     
     tbody(ng-repeat='execution in vm.boxes.execution.executions' ng-if="execution.eaBox._id == vm.box._id" )
       td {{ execution.testPlan.name }}

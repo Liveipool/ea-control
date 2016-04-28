@@ -43,7 +43,18 @@ angular.module 'app.test'
             @boxes = create-boxes boxData.boxes
             @boxes.execution = executionData
             @box = @boxes[$stateParams.id - 1]
-            # console.log "hahah: ", @boxes.execution.executions
+            console.log "hahah: ", @box
+            # console.log "lalaaa: ", @boxes.execution.executions[0].eaBox
+            # console.log "$stateParams.id - 1: ", $stateParams.id - 1
+            @length = 0
+            for i from 0 to 199
+              # console.log "iiiiiiii: ", i
+              # console.log "@boxes.execution.executions[i]._id: ", @boxes.execution.executions[i]._id
+              # console.log "@boxes[$stateParams.id - 1]._id: ", @boxes[$stateParams.id - 1]._id
+              if (@boxes.execution.executions[i].eaBox._id == @boxes[$stateParams.id - 1]._id)
+                @length++
+                # console.log "ifcon: ", @length
+            # console.log "length: ", @length
     }
 
 
