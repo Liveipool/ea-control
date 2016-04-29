@@ -24,7 +24,7 @@ create-box = (box)->
 
   box 
 
-angular.module 'app.test', []
+angular.module 'app.test'
   
 .config ($state-provider, $translate-partial-loader-provider, ms-navigation-service-provider)!->
   

@@ -11,5 +11,5 @@ angular.module 'app.test'
           controller-as: 'vm'
           controller: (data, $scope)!->
             @execution = data
-            # console.log "aaaaaa: ", data.testInfo.steps
+            console.log "aaaaaa: ", data
     }
