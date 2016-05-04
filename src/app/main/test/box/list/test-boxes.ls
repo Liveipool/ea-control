@@ -24,7 +24,7 @@ create-box = (box)->
 
   box 
 
-angular.module 'app.test'
+angular.module 'app.test', []
   
 .config ($state-provider, $translate-partial-loader-provider, ms-navigation-service-provider)!->
   
@@ -42,3 +42,65 @@ angular.module 'app.test'
             # console.log "@boxes: ", @boxes[1]
     }
 
+
+
+
+
+/*var createBoxes, createBox;
+createBoxes = function(boxes){
+  var i$, len$, box, results$ = [];
+  for (i$ = 0, len$ = boxes.length; i$ < len$; ++i$) {
+    box = boxes[i$];
+    results$.push(createBox(box));
+  }
+  return results$;
+};
+createBox = function(box){
+  var lastExecution, currentExecution, r;
+  lastExecution = {
+    testPlan: 'b36自动洗测试',
+    tester: '李斯斯',
+    result: '通过',
+    endTime: '三天前'
+  };
+  currentExecution = {
+    testPlan: 't121双速洗测试',
+    tester: '赵武',
+    totalSteps: 16,
+    completedSteps: 3,
+    startTime: "3'12''",
+    estimateEndTime: "5'31''"
+  };
+  r = Math.random();
+  switch (false) {
+  case !(r < 0.3):
+    box.lastExecution = lastExecution;
+    break;
+  case !(0.3 < r && r < 0.8):
+    box.currentExecution = currentExecution;
+    break;
+  default:
+
+  }
+  return box;
+};
+angular.module('app.test').config(function($stateProvider, $translatePartialLoaderProvider, msNavigationServiceProvider){
+  $stateProvider.state('app.test.boxes', {
+    url: '/test/boxes',
+    resolve: {
+      data: function(apiResolver){
+        return apiResolver.resolve('testBoxes@get');
+      }
+    },
+    views: {
+      'content@app': {
+        templateUrl: 'app/main/test/box/list/test-boxes.html',
+        controllerAs: 'vm',
+        controller: function(data, $scope){
+          this.boxes = createBoxes(data.boxes);
+        }
+      }
+    }
+  });
+});*/
+/**/

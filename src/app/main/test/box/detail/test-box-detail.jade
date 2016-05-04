@@ -1,11 +1,12 @@
 mixin box
   .mt-20
-    +box-info
+    +box-info-status12
+    +box-info-status0
     +current-info
     +test-history
 
-mixin box-info
-  .mt-20.ph-20(layout='row', layout-align='space-between center')
+mixin box-info-status12
+  .mt-20.ph-20(ng-if='vm.box.currentExecution || vm.box.lastExecution' layout='row', layout-align='space-between center')
     .box-name
       span.label 盒号 
       span.content {{ vm.box.name }}
@@ -18,6 +19,22 @@ mixin box-info
     .last-execution-result
       span.label 结果 
       span.content {{ vm.box.lastExecution.result }}
+
+
+mixin box-info-status0
+  .mt-20.ph-20(ng-if='!vm.box.currentExecution && !vm.box.lastExecution' layout='row', layout-align='space-between center')
+    .box-name
+      span.label 盒号 
+      span.content {{ vm.box.name }}
+    .executions
+      span.label 累计测试  
+      span.content 0
+    .last-execution-name
+      span.label 上一次测试 
+      span.content 无
+    .last-execution-result
+      span.label 结果 
+      span.content 无
 
 mixin current-info
   .mt-20.ph-20(ng-if='vm.box.currentExecution' layout='row', layout-align='space-between center')
@@ -57,7 +74,7 @@ mixin test-history
           .table-header
             span.column-title 总步骤
     
-    tbody(ng-repeat='execution in vm.boxes.execution.executions' ng-if="execution.eaBox._id == vm.box._id" )
+    tbody(ng-repeat='execution in vm.executionData.executions' ng-if="execution.eaBox._id == vm.box_id_num && (vm.box.currentExecution || vm.box.lastExecution)")
       td {{ execution.testPlan.name }}
       td {{ execution.tester.name }}
       td {{ execution.result }}

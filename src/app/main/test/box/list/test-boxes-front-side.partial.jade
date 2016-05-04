@@ -4,7 +4,7 @@ mixin headline
   .pb-8(layout='row', layout-align='space-between center')
     .h4.font-weight-500.secondary-text {{box.name}}
     .test-plan-name {{box.currentExecution.testPlan || box.lastExecution.testPlan.name}}
-    a.box-detail(ui-sref="app.test.box-detail({id: box._id})" title='测试盒详情') 
+    a.box-detail(ui-sref="app.test.box-detail({id: box._id, status: box.lastExecution || box.currentExecution ? box.currentExecution ? '2' : '1' : '0'})" title='测试盒详情') 
       md-icon.s16(md-font-icon="icon-eye")
     +menu(true)
 

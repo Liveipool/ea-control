@@ -1,4 +1,4 @@
-create-boxes = (boxes)-> [create-box box for box in boxes]
+/*create-boxes = (boxes)-> [create-box box for box in boxes]
 
 create-box = (box)->
   # last-execntion = Test-execution.get-lastest-test-of-box box._id
@@ -22,39 +22,41 @@ create-box = (box)->
   | 0.3 < r < 0.8   =>  box.current-execution = current-execution
   | otherwise       =>  # brand-new
 
-  box
+  box*/
 
 angular.module 'app.test'
   
-.config ($state-provider, $translate-partial-loader-provider, ms-navigation-service-provider)!->
+.config ($state-provider)!->
   
     $state-provider.state 'app.test.box-detail', {
-      url: '/test/boxes/:id'
+      url: '/test/boxes/?id?status'
       resolve:
-        boxData: (api-resolver)-> api-resolver.resolve('testBoxes@get')
+        # boxData: (api-resolver)-> api-resolver.resolve('testBoxes@get')
+        data: (box-service, $state-params) -> box-service.get-box-detail $state-params.id, $state-params.status
         executionData: (api-resolver)-> api-resolver.resolve('testExecutions@get')
       views:
         'content@app':
           template-url: 'app/main/test/box/detail/test-box-detail.html'
-          # controller: (boxes, $scope)!->
           controller-as: 'vm'
-          controller: (boxData, executionData, $scope, $stateParams)!->
-            # console.log "box-detail-lala: ", boxData.boxes[$stateParams.id - 1]
-            @boxes = create-boxes boxData.boxes
-            @boxes.execution = executionData
-            @box = @boxes[$stateParams.id - 1]
-            console.log "hahah: ", @box
-            # console.log "lalaaa: ", @boxes.execution.executions[0].eaBox
-            # console.log "$stateParams.id - 1: ", $stateParams.id - 1
+          controller: (data, executionData, $scope, $stateParams)!->
+            @box = data
+            @executionData = executionData
+            console.log "box-detail data: ", @box
+            console.log "box-detail executionData", @executionData
+            @box_id_num = parseInt(@box._id)
+            # @boxes = create-boxes boxData.boxes
+            # @boxes.execution = executionData
+            # @box = @boxes[$stateParams.id - 1]
+            # console.log "hahah: ", @box
             @length = 0
+            # console.log "length1: ", @length
+            # console.log "@executionData.executions[0].eaBox._id: ", typeof @executionData.executions[0].eaBox._id
+            # console.log "@box._id: ", typeof @box_id_num
             for i from 0 to 199
-              # console.log "iiiiiiii: ", i
-              # console.log "@boxes.execution.executions[i]._id: ", @boxes.execution.executions[i]._id
-              # console.log "@boxes[$stateParams.id - 1]._id: ", @boxes[$stateParams.id - 1]._id
-              if (@boxes.execution.executions[i].eaBox._id == @boxes[$stateParams.id - 1]._id)
+              if @executionData.executions[i].eaBox._id == @box_id_num
+                # console.log "hahahahhaha"
                 @length++
-                # console.log "ifcon: ", @length
-            # console.log "length: ", @length
+            # console.log "length2: ", @length
     }
 
 
