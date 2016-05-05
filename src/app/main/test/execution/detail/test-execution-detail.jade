@@ -8,14 +8,14 @@ mixin box
 mixin box-info
   div.mb-5(layout="row")
     span.label 盒号
-    span.content.pl-50 测试盒4 
+    span.content.pl-50 {{vm.new_execution_info.box.name}} 
     span.label.pl-100 测试计划 
-    span.content.pl-50 b36/分步测试 
+    span.content.pl-50 {{vm.new_execution_info.testPlan.testName}}
     span.label.pl-100 测试员
-    span.content.pl-50 dsds
+    span.content.pl-50 {{vm.new_execution_info.tester.name}}
 
 mixin test-status
-  div.progress(ng-if='!vm.execution.result', layout='column', layout-align='space-between')
+  div.progress(ng-if='!vm.execution_steps_info.result', layout='column', layout-align='space-between')
     //- .mt-20.ph-20(layout='row', layout-align='space-between center')
     //-   .start-time
     //-     span.label 测试开始时间
@@ -34,7 +34,7 @@ mixin test-progress
   .md-title.pv-20.pl-20 测试步骤进度
 
   .steps(layout='row' layout-wrap)
-    .step.ph-10.pv-20.m-10.active(ng-repeat='step in vm.execution.testInfo.steps' flex='20' layout='row' layout-align='space-between')
+    .step.ph-10.pv-20.m-10.active(ng-repeat='step in vm.execution_steps_info.testInfo.steps' flex='20' layout='row' layout-align='space-between')
       .seq-no(flex='20') {{step.id}}
       .name.subhead(flex) {{step.name}}
 

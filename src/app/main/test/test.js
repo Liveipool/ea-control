@@ -33,7 +33,8 @@ angular.module('app.test')
   var testService;
   return testService = {
     createExecution : function(box_id) {
-      var new_execution, cur_id, cur_name;
+      var new_execution, cur_name;
+      console.log("$rootScope.currentUser1111: ", $rootScope.currentUser);
       return new_execution = {
         _id : 200,
         box : {
@@ -41,7 +42,7 @@ angular.module('app.test')
           name : '测试盒 ' + box_id
         },
         tester : {
-          _id : (cur_id = $rootScope.currentUser) != null ? cur_id._id : void 8,
+          _id : 1,
           name : (cur_name = $rootScope.currentUser) != null ? cur_name.fullname : void 8
         },
         testPlan : {
@@ -50,7 +51,28 @@ angular.module('app.test')
           packageName: 'midea-kitchen-tests/bin',
           testName: 'b36/分步测试/分步测试'
         }
-      }
+      };
+    },
+    getNewExecution : function(new_execution_id, box_id, tester_name) {
+      var new_execution_info, cur_name;
+      console.log("$rootScope.currentUser2222: ", $rootScope.currentUser);
+      return new_execution_info = {
+        _id : new_execution_id,
+        box : {
+          _id : box_id,
+          name : '测试盒' + box_id
+        },
+        tester : {
+          _id : 1,
+          name : tester_name
+        },
+        testPlan : {
+          _id: 1,
+          testPackage: 'midea-kitchen-tests',
+          packageName: 'midea-kitchen-tests/bin',
+          testName: 'b36/分步测试/分步测试'
+        }
+      };
     }
   }
 })
