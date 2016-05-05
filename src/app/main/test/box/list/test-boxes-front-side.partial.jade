@@ -49,7 +49,7 @@ mixin idle-front
       +execute-new-test-button
 
 mixin execute-new-test-button
-  a(ui-sref="app.test.create({box: box._id})" layout='column')
+  a(ui-sref="app.test.create({box_id: box._id})" layout='column')
     md-button.md-primary(title='执行新测试')
       md-icon(md-font-icon='icon-flash')
       | 新测试

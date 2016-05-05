@@ -5,15 +5,7 @@ angular.module('app.test')
   return boxService = {
     getBoxDetail : function(Id, Status) {
       var lastExecution_, currentExecution_, box;
-      // resolve : {
-      //   _executions : function(apiResolver) {
-      //     return apiResolver.resolve(testExecutions@get)
-      //   }
-      // };
-      // _executions = apiResolver.resolve(testExecutions@get);
-      // for (var i = 0; i < _executions.executions.length; i++)
-      //   executions_[i] = _executions.executions[i];
-       lastExecution_ = {
+      lastExecution_ = {
          testPlan : 'b36自动洗测试',
          tester : '李斯斯',
          result : '通过',
@@ -32,6 +24,32 @@ angular.module('app.test')
         name : "测试盒 " + Id,
         lastExecution : Status != 0 ? lastExecution_ : void 8,
         currentExecution : Status == 2 ? currentExecution_ : void 8
+      }
+    }
+  }
+})
+
+.factory('testService', function(apiResolver, $rootScope) {
+  var testService;
+  return testService = {
+    createExecution : function(box_id) {
+      var new_execution, cur_id, cur_name;
+      return new_execution = {
+        _id : 200,
+        box : {
+          _id : box_id,
+          name : '测试盒 ' + box_id
+        },
+        tester : {
+          _id : (cur_id = $rootScope.currentUser) != null ? cur_id._id : void 8,
+          name : (cur_name = $rootScope.currentUser) != null ? cur_name.fullname : void 8
+        },
+        testPlan : {
+          _id: 1,
+          testPackage: 'midea-kitchen-tests',
+          packageName: 'midea-kitchen-tests/bin',
+          testName: 'b36/分步测试/分步测试'
+        }
       }
     }
   }

@@ -23,6 +23,7 @@ create-box = (box)->
   | otherwise       =>  # brand-new
 
   box*/
+  # 如果在这里create-box就会导致每次进入测试盒详情界面时都重新新建这个盒子的详情，和前面没有关联性。
 
 angular.module 'app.test'
   
