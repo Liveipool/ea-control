@@ -4,7 +4,7 @@
 			"id": 1,
 			"name": "启动",
 			"type": "human",
-			"estimateExecutionTime": 300000,
+			"estimateExecutionTime": 5000,
 			"next": [2]
 		}, {
 			"id": 2,

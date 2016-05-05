@@ -11,11 +11,11 @@ angular.module 'app.test'
           controller-as: 'vm'
           controller: (data, $scope, $state)!->
             @execution = data
-            console.log "datahahhahah: ", data
+            # console.log "datahahhahah: ", data
             @execution-text = '执行新测试'
             counter = 0
             @execute-test = ->
-              console.log "counter: ", counter
+              # console.log "counter: ", counter
               counter++
               if counter == 1
                 @execution-text = '等待测试盒执行...'

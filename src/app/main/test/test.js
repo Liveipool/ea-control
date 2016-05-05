@@ -55,7 +55,7 @@ angular.module('app.test')
     },
     getNewExecution : function(new_execution_id, box_id, tester_name) {
       var new_execution_info, cur_name;
-      console.log("$rootScope.currentUser2222: ", $rootScope.currentUser);
+      // console.log("$rootScope.currentUser2222: ", $rootScope.currentUser);
       return new_execution_info = {
         _id : new_execution_id,
         box : {
@@ -71,14 +71,40 @@ angular.module('app.test')
           testPackage: 'midea-kitchen-tests',
           packageName: 'midea-kitchen-tests/bin',
           testName: 'b36/分步测试/分步测试'
-        }
+        },
+        startTime : Date.now()
       };
     }
   }
 })
 
-.filter('dateTimeShort', function() {
-	return function() {
+.filter('dateTimeNearShortFarFull', function() {
+  return function(dateTimeNum) {
+    var lessThanAnHour;
+    if (lessThanAnHour = Date.now() - dateTimeNum < 60 * 60 * 1000)
+      return moment(new Date(dateTimeNum)).fromNow();
+    else
+      return moment(new Date(dateTimeNum)).format('LLL');
+  };
+})
 
-	};
-});
+.filter('duration', function() {
+  return function(durationNum) {
+    var dur, y, M, d, h, m, s, totalTime;
+    dur = moment.duration(durationNum);
+    totalTime = '';
+    y = dur.years();
+    M = dur.months();
+    d = dur.days();
+    h = dur.hours();
+    m = dur.minutes();
+    s = dur.seconds();
+    if (y) totalTime += y + '年';
+    if (M) totalTime += M + '月';
+    if (d) totalTime += d + '日';
+    if (h) totalTime += h + '小时';
+    if (m) totalTime += m + '分';
+    if (s) totalTime += s + '秒';
+    return totalTime;
+  };
+})

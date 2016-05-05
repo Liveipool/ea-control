@@ -1,53 +1,67 @@
-mixin box
-  .mt-20
-    +box-info
-    +test-status
-    +test-progress
-    +wave
+mixin summary
+  +info
+  +progress
+  +result
 
-mixin box-info
-  div.mb-5(layout="row")
-    span.label 盒号
-    span.content.pl-50 {{vm.new_execution_info.box.name}} 
-    span.label.pl-100 测试计划 
-    span.content.pl-50 {{vm.new_execution_info.testPlan.testName}}
-    span.label.pl-100 测试员
-    span.content.pl-50 {{vm.new_execution_info.tester.name}}
+mixin info
+  .mt-20.ph-20(layout='row', layout-align='space-between center')
+    .box-name
+      span.label 测试盒 
+      span.content {{ vm.new_execution_info.box.name }}
+    .test-plan
+      span.label 测试计划 
+      span.content {{ vm.new_execution_info.testPlan.testName }}
+    .tester
+      span.label 测试员 
+      span.content {{ vm.new_execution_info.tester.name }}
 
-mixin test-status
-  div.progress(ng-if='!vm.execution_steps_info.result', layout='column', layout-align='space-between')
-    //- .mt-20.ph-20(layout='row', layout-align='space-between center')
-    //-   .start-time
-    //-     span.label 测试开始时间
-    //-     span.content {{ vm.execution.startTime | dateTimeNearShortFarFull }}
-    //-   //- .end-time(ng-if='execution.endTime')
-    //-   //-   span.label 测试结束时间
-    //-   //-   span.content {{ vm.execution.endTime | dateTimeNearShortFarFull }}
-    //-   .estimate-end-time(ng-if='!execution.endTime')
-    //-     span.label 预计测试结束
-    //-     span.content {{ vm.execution.estimateEndTime | duration }}
-    //-   .step-progress
-    //-     span.label 进度
-    //-     span.content {{ vm.execution.completedStepsCount }} /  {{ vm.execution.totalStepsCount }}
+mixin progress
+  div.progress(ng-if='!vm.execution.result', layout='column', layout-align='space-between')
+    .mt-20.ph-20(layout='row', layout-align='space-between center')
+      +start-end
+      .step-progress
+        span.label 进度 
+        span.content {{ vm.completedStepsCount }} /  {{ vm.totalStepsCount }}
 
-mixin test-progress
+
+mixin result
+  div.progress(ng-if='vm.execution.result', layout='column', layout-align='space-between')
+    .mt-20.ph-20(layout='row', layout-align='space-between center')
+      +start-end
+      .result
+        span.label 结果 
+        span.content {{ vm.execution.result }}
+
+mixin start-end
+  .start-time
+    span.label 测试开始时间 
+    span.content {{ vm.new_execution_info.startTime | dateTimeNearShortFarFull }}
+  .end-time(ng-if='execution.endTime')
+    span.label 测试结束时间 
+    span.content {{ vm.new_execution_info.endTime | dateTimeNearShortFarFull }}
+  .estimate-end-time(ng-if='!execution.endTime')
+    span.label 预计测试结束 
+    span.content {{ vm.estimateEndTime | duration }}
+
+
+mixin step-progress
   .md-title.pv-20.pl-20 测试步骤进度
+  //- TODO：驱动开发，模拟socket step-started消息的按钮
+  md-button.md-raised.md-accent(ng-click='vm.mockSocketMessageStepStarted()') 驱动开发，模拟ea-box进入下一步 {{vm.execution.currentStep.name}}
 
   .steps(layout='row' layout-wrap)
-    .step.ph-10.pv-20.m-10.active(ng-repeat='step in vm.execution_steps_info.testInfo.steps' flex='20' layout='row' layout-align='space-between')
+    .step.ph-10.pv-20.m-10(ng-repeat='step in vm.execution_steps_info.testInfo.steps' class="{{step.status}}" flex='20' layout='row' layout-align='space-between')
       .seq-no(flex='20') {{step.id}}
       .name.subhead(flex) {{step.name}}
+      .estimate-execution-time(flex='20' ng-if='step.status != "active"') {{step.estimateExecutionTime | duration }}
+      .estimate-end-time(flex='20' ng-if='step.status == "active"') {{step.estimateExecutionTime | duration }}
 
-  //- .steps(layout='row' layout-wrap)
-  //-   .step.ph-10.pv-20.m-10(ng-repeat='step in vm.execution.steps' class="{{step.status}}" flex='20' layout='row' layout-align='space-between')
-  //-     .seq-no(flex='20') {{step.id}}
-  //-     .name.subhead(flex) {{step.name}}
-  //-     .estimate-execution-time(flex='20' ng-if='step.status != "active"') {{step.estimateExecutionTime | duration }}
-  //-     .estimate-end-time(flex='20' ng-if='step.status == "active"') {{step.estimateEndTime | duration }}
+mixin waveform
+  .md-headline.pv-20.pl-20 波形图
 
-mixin wave
-  span 波形图——待开发
-
+//- ------------- 页面 -----------
 .md-headline.pv-20.pl-20 测试执行详情
-  #test-box-detail(layout='column' flex='100')
-    +box
+#test-execution-detail
+  +summary
+  +step-progress
+  +waveform
