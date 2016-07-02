@@ -24,7 +24,7 @@ angular.module 'app.test'
             console.log "@new_execution_info bbbbbb: ", @new_execution_info
             console.log "data aaaaaa: ", data
             # console.log "@estimateEndTime: ", @estimateEndTime
-            that = @ #这里还是不太懂，但下面executing函数里要是用@就会报错，cannot read testInfo of undefined
+            that = @ #这里还是不太懂，下面executing函数里要是用@就会报错，cannot read testInfo of undefined
             executing = ->
               that.completedStepsCount = currentStep
               that.estimateEndTime -= 1000
